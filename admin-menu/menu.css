@@ -1,0 +1,45 @@
+.notice {
+    display: none;
+}
+
+.blaze-system-info {
+    padding: 20px;
+}
+
+.blaze-system-info .page-title {
+    margin: 4px 0;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.item-container-wrap .item-container {
+    padding: 14px 16px;
+    margin: 16px 26px 16px 0;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.item-container-wrap .item-head {
+    border-bottom: 1px dashed #000000;
+    padding-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.item-container-wrap .item-body {
+    padding: 6px 0;
+}
+
+.item-container-wrap .item-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.item-container-wrap .item-column:first-child {
+    flex: 0 1 30%;
+}
+
+.item-container-wrap .item-column {
+    flex: 0 1 32%;
+    padding: 4px;
+}
